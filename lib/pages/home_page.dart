@@ -1,4 +1,4 @@
-import 'package:bubble/pages/cast_pages.dart';
+import 'package:bubble/pages/cart_pages.dart';
 import 'package:bubble/pages/shop_pages.dart';
 import 'package:flutter/material.dart';
 // ignore: unused_import
@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.brown[100],
+      backgroundColor: Colors.brown[200],
       bottomNavigationBar: MyBottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
       ),
